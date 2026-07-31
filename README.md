@@ -75,19 +75,6 @@ Due to GitHub file size limits for large files (`Silver_Standard.csv` and `drugs
 ---
 
 ## 6. Citation
-
-If you use this framework, dataset, or benchmarking results in your research, please cite:
-
-```bibtex
-@article{pham2026knowledge,
-  title={Knowledge-Guided Hybrid ADR Extraction with Dynamic Thresholding for Safe Drug Recommendation},
-  author={Pham, Dinh Tai and Phan, Huyen Trang and Nguyen, Ngoc Thanh},
-  journal={Under Review at Data Mining and Knowledge Discovery (Springer)},
-  year={2026}
-}
-
-```
-
 ---
 
 ## 7. License & Data Source
