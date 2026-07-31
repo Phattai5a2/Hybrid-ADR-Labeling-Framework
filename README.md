@@ -30,8 +30,10 @@ The repository contains two core datasets alongside external knowledge bases and
 
 ## 3. Dataset & File Contents
 
-The workspace contains the following files:
+The workspace is organized into the following repository structure:
 
+```text
+.
 ├── Gold_Standard.xlsx            # Primary Gold Standard dataset (500 manually annotated reviews)
 ├── Silver_Standard.csv           # Silver Standard dataset (215,063 automatically annotated reviews)
 ├── drugsCom_ALL_215k.csv         # Raw dataset of 215k patient reviews from Drugs.com
@@ -47,9 +49,6 @@ The workspace contains the following files:
     ├── Khao_Sat_Gemini_Labeled.xlsx
     ├── Khao_Sat_Gork3_Labeled.xlsx
     └── Khao_sat_Hybrid.xlsx
-```
-
----
 
 ## 4. Label Definition
 
