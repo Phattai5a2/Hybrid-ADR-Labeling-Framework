@@ -88,9 +88,7 @@ Due to GitHub file size limits for large files (`Silver_Standard.csv` and `drugs
 *Faculty of Information Technology, Nguyen Tat Thanh University, Ho Chi Minh City, Vietnam*
 📧 Email: `pdtai@ntt.edu.vn`
 * **Dr. Huyen Trang Phan** *(Corresponding Author)*
-*Faculty of Information Technology, HCMC University of Technology and Education, Vietnam*
+*Faculty of Information Technology, HCMC University of Technology and Engineering, Vietnam*
 📧 Email: `trangpth@hcmute.edu.vn`
-
-```
 
 ```
