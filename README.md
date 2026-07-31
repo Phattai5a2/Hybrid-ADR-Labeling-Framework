@@ -32,22 +32,21 @@ The repository contains two core datasets alongside external knowledge bases and
 
 The workspace contains the following files:
 
-```text
-.
-├── Gold_Standard.xlsx            # Expert-validated Gold Standard benchmark set (n = 500)
-├── Silver_Standard.csv           # Large-scale automatically annotated dataset (N = 215,063)
-├── drugsCom_ALL_215k.csv         # Raw collected patient reviews from Drugs.com
-├── drugsCom_V10.5_Final.csv      # Processed dataset version 10.5 ready for modeling
-├── drugCom_ADR_Pscore.csv        # Calculated ADR propensity/risk scores for DRS integration
+├── Gold_Standard.xlsx            # Primary Gold Standard dataset (500 manually annotated reviews)
+├── Silver_Standard.csv           # Silver Standard dataset (215,063 automatically annotated reviews)
+├── drugsCom_ALL_215k.csv         # Raw dataset of 215k patient reviews from Drugs.com
+├── drugsCom_V10.5_Final.csv      # Processed dataset version 10.5 ready for experiments
+├── drugCom_ADR_Pscore.csv        # Calculated ADR propensity/risk scores for drug reviews
 │
-├── drug_names.tsv                # Normalized drug entity dictionary
-├── meddra_all_se.tsv             # MedDRA side-effect terminology database
+├── Knowledge_Bases/
+│   ├── drug_names.tsv            # Normalized drug entity dictionary
+│   └── meddra_all_se.tsv         # MedDRA side effect terminology dictionary
 │
-├── Khao_sat_Hybrid.xlsx          # Proposed Hybrid Model predictions on Gold Standard
-├── Khao_Sat_ChatGPT_Labeled.xlsx # ChatGPT (GPT-4o) baseline evaluation log
-├── Khao_Sat_Gemini_Labeled.xlsx  # Gemini 1.5 Pro baseline evaluation log
-└── Khao_Sat_Gork3_Labeled.xlsx   # Grok 3 baseline evaluation log
-
+└── LLM_Benchmark_Evaluations/    # Model output logs for comparative benchmark analysis
+    ├── Khao_Sat_ChatGPT_Labeled.xlsx
+    ├── Khao_Sat_Gemini_Labeled.xlsx
+    ├── Khao_Sat_Gork3_Labeled.xlsx
+    └── Khao_sat_Hybrid.xlsx
 ```
 
 ---
@@ -72,19 +71,6 @@ Due to GitHub file size limits for large files (`Silver_Standard.csv` and `drugs
 ---
 
 ## 6. Citation
-
-If you use this framework, dataset, or benchmarking results in your research, please cite:
-
-```bibtex
-@article{pham2026knowledge,
-  title={Knowledge-Guided Hybrid ADR Extraction with Dynamic Thresholding for Safe Drug Recommendation},
-  author={Pham, Dinh Tai and Phan, Huyen Trang and Nguyen, Ngoc Thanh},
-  journal={Under Review at Data Mining and Knowledge Discovery (Springer)},
-  year={2026}
-}
-
-```
-
 ---
 
 ## 7. License & Data Source
