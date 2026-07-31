@@ -47,6 +47,9 @@ The workspace contains the following files:
 ├── Khao_Sat_ChatGPT_Labeled.xlsx # ChatGPT (GPT-4o) baseline evaluation log
 ├── Khao_Sat_Gemini_Labeled.xlsx  # Gemini 1.5 Pro baseline evaluation log
 └── Khao_Sat_Gork3_Labeled.xlsx   # Grok 3 baseline evaluation log
+
+```
+
 ---
 
 ## 4. Label Definition
@@ -54,7 +57,7 @@ The workspace contains the following files:
 Binary classification labels are structured as follows:
 
 | Label | Definition | Description |
-| :---: | :--- | :--- |
+| --- | --- | --- |
 | **1** | **ADR Positive** | Review explicitly or implicitly describes one or more Adverse Drug Reactions. |
 | **0** | **ADR Negative** | No Adverse Drug Reaction is reported in the review text. |
 
@@ -79,3 +82,23 @@ If you use this framework, dataset, or benchmarking results in your research, pl
   journal={Under Review at Data Mining and Knowledge Discovery (Springer)},
   year={2026}
 }
+
+```
+
+---
+
+## 7. License & Data Source
+
+* **Original Data Source:** All unstructured reviews were collected from [Drugs.com](https://www.drugs.com/).
+* **Usage Policy:** This dataset is provided strictly for **research and academic purposes**. Users must comply with the terms of use of the original data source.
+
+---
+
+## 8. Contact & Authors
+
+* **Dinh Tai Pham**
+*Faculty of Information Technology, Nguyen Tat Thanh University, Ho Chi Minh City, Vietnam*
+📧 Email: `pdtai@ntt.edu.vn`
+* **Dr. Huyen Trang Phan** *(Corresponding Author)*
+*Faculty of Information Technology, HCMC University of Technology and Education, Vietnam*
+📧 Email: `trangpth@hcmute.edu.vn`
