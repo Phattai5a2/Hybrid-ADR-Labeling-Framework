@@ -47,3 +47,35 @@ The workspace contains the following files:
 ├── Khao_Sat_ChatGPT_Labeled.xlsx # ChatGPT (GPT-4o) baseline evaluation log
 ├── Khao_Sat_Gemini_Labeled.xlsx  # Gemini 1.5 Pro baseline evaluation log
 └── Khao_Sat_Gork3_Labeled.xlsx   # Grok 3 baseline evaluation log
+---
+
+## 4. Label Definition
+
+Binary classification labels are structured as follows:
+
+| Label | Definition | Description |
+| :---: | :--- | :--- |
+| **1** | **ADR Positive** | Review explicitly or implicitly describes one or more Adverse Drug Reactions. |
+| **0** | **ADR Negative** | No Adverse Drug Reaction is reported in the review text. |
+
+---
+
+## 5. Data Access & Download
+
+Due to GitHub file size limits for large files (`Silver_Standard.csv` and `drugsCom_V10.5_Final.csv`), the full high-resolution raw files can also be accessed directly via Google Drive:
+
+🔗 **[Click here to access the Google Drive Folder](https://drive.google.com/drive/folders/XXXXXXXXXXXX)** *(Replace with your public link)*
+
+---
+
+## 6. Citation
+
+If you use this framework, dataset, or benchmarking results in your research, please cite:
+
+```bibtex
+@article{pham2026knowledge,
+  title={Knowledge-Guided Hybrid ADR Extraction with Dynamic Thresholding for Safe Drug Recommendation},
+  author={Pham, Dinh Tai and Phan, Huyen Trang and Nguyen, Ngoc Thanh},
+  journal={Under Review at Data Mining and Knowledge Discovery (Springer)},
+  year={2026}
+}
