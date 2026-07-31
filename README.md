@@ -1,3 +1,4 @@
+
 # Knowledge-Guided Hybrid ADR Extraction Framework & Datasets
 
 [![Journal](https://img.shields.io/badge/Journal-Springer%20Data%20Mining%20%26%20Knowledge%20Discovery-blue)](#)
@@ -49,7 +50,8 @@ The workspace is organized into the following repository structure:
     ├── Khao_Sat_Gemini_Labeled.xlsx
     ├── Khao_Sat_Gork3_Labeled.xlsx
     └── Khao_sat_Hybrid.xlsx
-...
+
+```
 
 ---
 
@@ -73,6 +75,19 @@ Due to GitHub file size limits for large files (`Silver_Standard.csv` and `drugs
 ---
 
 ## 6. Citation
+
+If you use this framework, dataset, or benchmarking results in your research, please cite:
+
+```bibtex
+@article{pham2026knowledge,
+  title={Knowledge-Guided Hybrid ADR Extraction with Dynamic Thresholding for Safe Drug Recommendation},
+  author={Pham, Dinh Tai and Phan, Huyen Trang and Nguyen, Ngoc Thanh},
+  journal={Under Review at Data Mining and Knowledge Discovery (Springer)},
+  year={2026}
+}
+
+```
+
 ---
 
 ## 7. License & Data Source
