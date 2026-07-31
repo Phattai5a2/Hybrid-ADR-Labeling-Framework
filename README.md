@@ -70,7 +70,7 @@ Binary classification labels are structured as follows:
 
 Due to GitHub file size limits for large files (`Silver_Standard.csv` and `drugsCom_V10.5_Final.csv`), the full high-resolution raw files can also be accessed directly via Google Drive:
 
-🔗 **[Click here to access the Google Drive Folder](https://drive.google.com/drive/folders/XXXXXXXXXXXX)** *(Replace with your public link)*
+🔗 **[Click here to access the Google Drive Folder]([https://drive.google.com/drive/folders/18RNQmXnNxJFsB3Qr3zhlw2B3JYRHV5KV?usp=sharing])**
 
 ---
 
