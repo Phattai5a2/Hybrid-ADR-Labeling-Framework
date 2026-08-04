@@ -1,7 +1,7 @@
 
 # Knowledge-Guided Hybrid ADR Extraction Framework & Datasets
 
-[![Journal](https://img.shields.io/badge/JAnnals of Biomedical Engineering-blue)](#)
+
 [![Python](https://img.shields.io/badge/Python-3.9%2B-green)](#)
 [![License](https://img.shields.io/badge/License-Research%20Only-orange)](#)
 
